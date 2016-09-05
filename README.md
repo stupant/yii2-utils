@@ -41,4 +41,12 @@ Show a GridView without any assets bundle. Best for display data without paginat
 
 ```
 
-###
+### BigDataActiveDataProvider
+
+Only retrieve more records if required. Suitable for big data tables.
+
+```
+$dataProvider = new BigDataActiveDataProvider([
+  'query' => ActiveRecord::find()
+]);
+```
