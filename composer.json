@@ -1,0 +1,21 @@
+{
+	"name": "stupant/yii2-utils",
+	"description": "A set of common used yii2 tools",
+	"keywords": ["utils", "yii2"],
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Trung Nguyen",
+			"email": "nguyendinhtrung141@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2":"~2.0.9"
+	},
+	"autoload": {
+		"psr-4": {
+			"stupant\\utils\\": ""
+		}
+	}
+}
